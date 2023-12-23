@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>soɔɐʇ,o</title>
+</head>
+<body>
+    <header>
+       
+        <nav>
+            <ul>
+           
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="accueil">
+            <h2>Bonne chance </h2>
+            <p>Elle ne sert pas à rien, voilà sa seule et unique utilité</p>
+            <form id="loginForm">
+                <label for="password">Entrez le mot de passe :</label>
+                <input type="password" id="password" required onkeydown="handleEnter(event)">
+                <button type="button" onclick="checkPassword(event)">Se Connecter</button>
+            </form>
+            <p id="message"></p>
+        </section>
+
+        <!-- ... (le reste du contenu reste inchangé) -->
+
+    </main>
+
+    <footer>
+        <p>&copy; 2023 INDICE. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
